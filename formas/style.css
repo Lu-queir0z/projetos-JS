@@ -50,7 +50,7 @@
     height: 100%;
     width: 100%;
 }
-.almentar{
+.aumentar{
     background-color: aqua;
     position: absolute;
     flex-grow: 1;

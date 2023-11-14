@@ -17,7 +17,7 @@ function girar() {
     forma3.classList.toggle('girar')
 }
 function mudarTamanho() {
-    forma4.classList.toggle('almentar')
+    forma4.classList.toggle('aumentar')
 }
 function mudarPosicao() {
     forma5.classList.toggle('mover')
