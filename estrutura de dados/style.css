@@ -1,0 +1,70 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    padding: 32px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.action{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    gap: 16px;
+}
+.action button{
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+.data-container{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 4px 3px #aaa;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 10%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.card__photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid rgb(14, 111, 196);
+}
+.card__name{
+    font-size: 1.5rem;
+    color: rgb(2, 23, 41);
+}
+.card__user-id{
+    font-size: 1.2rem;
+    color: rgb(2, 27, 48);
+}
+.sombra{
+    box-shadow: 2px 2px 3px #f00;
+    /*background-color: #f009;*/
+}
